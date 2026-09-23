@@ -11,6 +11,7 @@ def login(username, password):
 
 def process_data(data):
     result = []
+
     for item in data:
         result.append(item * 2)
 
